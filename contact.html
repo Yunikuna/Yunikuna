@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Contact Us</title>
+</head>
+<body>
+  <div class="container">
+    <div class="nav-bar">
+      <div class="left-side">
+        <div class="brand-logo">
+          <img src="images/logo1.png">
+        </div>
+
+        <div class="nav-brand">
+          <div>YUNIKUNA</div>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="nav-link">
+          <a href="index.html">HOME</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="about.html">ABOUT US</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="sport.html">SPORT</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="sneaker.html">SNEAKERS</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="smart.html">SMART</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="specialize.html">SPECIALIZE</a>
+        </div>
+
+        <div class="nav-link active-nav-link">
+          <a href="contact.html">CONTACT US</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <form action="https://forms.gle/aYB3MFV8GyGgFbdk7">
+      <h1>Contact Us</h1>
+  
+      <label for="flname"><b>Full Name</b></label>
+      <input type="text" id="flname" name="fullname" placeholder="Your name..">
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" id="email" name="email" placeholder="Enter Email">
+  
+      <label for="pnumber"><b>Product Number</b></label>
+      <input type="text" id="pnumber" name="prodcutnumber" placeholder="Put Item Code Example:#SP012">
+
+      <label for="size"><b>Size</b></label>
+      <input type="text" id="size" name="size" placeholder="Enter Your Size">
+      <button type="submit" class="btn">Submit</button>
+  
+    </form>
+  </div>
+
+  <div class="help-add">
+    <h2>Help & Information</h2>
+    <hr>
+    <div class="how-to">
+      <h3>How To Buy?</h3>
+      <ol>
+        <li>Choose your products</li>
+        <li>Copy the products number</li>
+        <li>Go to contact us page</li>
+        <li>Fill the form & sumbit to us</li>
+        <li>We will notify via the email</li>
+      </ol>
+    </div>
+    <hr>
+
+    <div class="size-chart">
+      <h3>Size Chart</h3>
+      <button onclick="sizeMen()">MEN</button>
+      <button onclick="sizeGirl()">WOMEN</button>
+
+      <div id="women">
+        <p>Women Size Chart</p>
+        <table>
+          <tr>
+            <th>UK</th>
+            <th>US</th>
+            <th>EUROPE</th>
+          </tr>
+
+          <tr>
+            <td>3.5</td>
+            <td>5</td>
+            <td>36</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>5.5</td>
+            <td>36 2/3</td>
+          </tr>
+
+          <tr>
+            <td>4.5</td>
+            <td>6</td>
+            <td>37 1/3</td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>6.5</td>
+            <td>38</td>
+          </tr>
+
+          <tr>
+            <td>5.5</td>
+            <td>7</td>
+            <td>38 2/3</td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>7.5</td>
+            <td>39 1/3</td>
+          </tr>
+
+          <tr>
+            <td>6.5</td>
+            <td>8</td>
+            <td>40</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>8.5</td>
+            <td>40 2/3</td>
+          </tr>
+
+          <tr>
+            <td>7.5</td>
+            <td>9</td>
+            <td>41 1/3</td>
+          </tr>
+
+          <tr>
+            <td>8</td>
+            <td>9.5</td>
+            <td>42</td>
+          </tr>
+
+          <tr>
+            <td>8.5</td>
+            <td>10</td>
+            <td>42 2/3</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="men">
+        <p>Men Size Chart</p>
+        <table>
+          <tr>
+            <th>UK</th>
+            <th>US</th>
+            <th>EUROPE</th>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>6.5</td>
+            <td>39 1/3</td>
+          </tr>
+
+          <tr>
+            <td>6.5</td>
+            <td>7</td>
+            <td>40</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>7.5</td>
+            <td>40 2/3</td>
+          </tr>
+
+          <tr>
+            <td>7.5</td>
+            <td>8</td>
+            <td>41 1/3</td>
+          </tr>
+
+          <tr>
+            <td>8</td>
+            <td>8.5</td>
+            <td>42</td>
+          </tr>
+
+          <tr>
+            <td>8.5</td>
+            <td>9</td>
+            <td>42 2/3</td>
+          </tr>
+
+          <tr>
+            <td>9</td>
+            <td>9.5</td>
+            <td>43 1/3</td>
+          </tr>
+
+          <tr>
+            <td>9.5</td>
+            <td>10</td>
+            <td>44</td>
+          </tr> 
+
+          <tr>
+            <td>10</td>
+            <td>10.5</td>
+            <td>44 2/3</td>
+          </tr>
+
+          <tr>
+            <td>10.5</td>
+            <td>11</td>
+            <td>45 1/3</td>
+          </tr>
+
+          <tr>
+            <td>11</td>
+            <td>11.5</td>
+            <td>46</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer"
+    <footer id="main-footer">
+      <p>This website is purposely for IMD311 Group assingment</p>
+
+    <footer id="mid-footer">
+      <ul>
+        <li><a href="https://www.instagram.com/yunikuna_store/"><img src="images/insta.png"></a></li>
+        <li><a href="contact.html/"><img src="images/google.png"></a></li>
+      </ul>
+
+    <footer id="end-footer">
+      <p>Recommended Browser For This Website Is Google Chrome,Internet Explorer & Firefox</p>
+  </div>
+</body>
+<script>
+  function sizeMen() {
+    var x = document.getElementById("men");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  
+  function sizeGirl() {
+    var x = document.getElementById("women");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+</html>
